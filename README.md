@@ -27,7 +27,10 @@ A Python tool that converts Adobe Photoshop (.psd) files into DaVinci Resolve Fu
 
 ```bash
 pip install psd-tools pillow
+```
 
+
+```bash
 ================================================================================
 PSD TO FUSION CONVERTER v9.1 - ALL-IN-ONE VERSION
 ================================================================================
@@ -149,3 +152,6 @@ LIMITATIONS:
     - Text styling may not transfer to TextPlus nodes
     - Adjustment layers are ignored
     - Layer masks applied on export but not editable in Fusion
+
+
+```
