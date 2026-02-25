@@ -1,3 +1,33 @@
+# PSD to Fusion Converter
+
+A Python tool that converts Adobe Photoshop (.psd) files into DaVinci Resolve Fusion compositions (.comp). Available in both **Command Line Interface (CLI)** and **Dark Mode GUI** versions.
+
+![Version](https://img.shields.io/badge/version-9.1-blue.svg)
+![Python](https://img.shields.io/badge/python-3.7+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+
+## Features
+
+- 🎨 **Layer Preservation**: Converts PSD layers into Fusion nodes with proper positioning
+- 📝 **Text Handling**: Choose between editable TextPlus nodes or rasterized PNG images
+- 🖼️ **Blend Modes**: Supports Normal, Multiply, Screen, Overlay, Soft Light, and Hard Light
+- 📂 **Group Support**: Flattens Photoshop groups into merged images
+- 🎯 **Opacity & Position**: Preserves layer opacity and bounding box coordinates
+- 🖥️ **Modern GUI**: Dark mode interface with real-time conversion log
+- ⚡ **CLI Support**: Batch processing and automation friendly
+
+## Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Required Packages
+
+```bash
+pip install psd-tools pillow
+
 ================================================================================
 PSD TO FUSION CONVERTER v9.1 - ALL-IN-ONE VERSION
 ================================================================================
